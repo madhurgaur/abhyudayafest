@@ -1,0 +1,77 @@
+.fest__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 6rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fest__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .fest__navbar-links_logo {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .fest__navbar-links_logo img{
+    width: 62px;
+    height: 66px;
+ }
+
+ .fest__navbar-links_container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 7rem;
+ }
+ .fest__navbar-links_logo p {
+    font-family: "Salsa", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+ }
+ 
+ .fest__navbar-links_container p{
+    font-family: "Salsa", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+ }
+
+ .nav-link {
+    position: relative;
+    /* color: white; */
+    cursor: pointer;
+    /* padding: 10px; */
+    /* margin: 0; */
+    display: inline-block;
+}
+ .nav-link:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}
+ 
