@@ -16,7 +16,7 @@ const About = () => {
          <div className='fest__about-container_info'>
          
            <div>
-            <h3>Abhyudaya, our college fest, unfolds a mesmerizing spectacle with its theme "Ethereal Euphoria." Embarking on a journey of transcendent joy and boundless creativity, the event promises an immersive experience that transcends reality. Vibrant colors, captivating performances, and a euphoric atmosphere blend seamlessly, creating an ethereal celebration of art, culture, and innovation. Join us for a euphoric rendezvous that transcends boundaries and ignites the spirit of Abhyudaya's radiant and otherworldly festivities.</h3>
+            <h3>Abhyudaya, our college fest, unfolds a mesmerizing spectacle with its theme "Ethereal Euphoria." Embarking on a journey of transcendent joy and boundless creativity, he event promises an immersive experience that transcends reality. Vibrant colors, captivating performances, and a euphoric atmosphere blend seamlessly, creating an ethereal celebration of art, culture, and innovation. Join us for a euphoric rendezvous that transcends boundaries and ignites the spirit of Abhyudaya's radiant and otherworldly festivities.</h3>
             </div>
             
          
