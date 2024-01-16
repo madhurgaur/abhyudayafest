@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import './index.css'
 import { Navbar,Header,About } from './components'
 <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet"></link>
 

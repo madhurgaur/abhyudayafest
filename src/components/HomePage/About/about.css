@@ -1,0 +1,101 @@
+.fest__about{
+    /* height: 60%; */
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    overflow: hidden;
+    
+}
+
+.fest__about-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70vw;
+}
+
+/* .fest__about-container_heading{
+    font-family: "Salsa", cursive;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 175px;
+    letter-spacing: -0.04em;
+    margin-top: -25.6rem;
+} */
+
+.fest__about-container_info{
+    font-family: "Salsa", cursive;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 37px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    margin: 0.5rem;
+    padding: 3rem;
+    border: 3px dashed rgb(255, 213, 75);
+    background: #734075;
+}
+.ribbon {
+    /* background-color: aqua; */
+    height: 30rem;
+    width: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    padding: 2rem;
+    margin-bottom: -7rem;
+    margin-top: -6rem;
+}
+.ribbon img{
+    height: 40%;
+    width: 40%;
+}
+
+/* .garland{
+    width: 100%;
+    position: absolute;
+    top: 46rem;
+}
+
+.garland img{
+    width: 100%;
+    height: 100%;
+} */
+
+.aero{
+    width: 30vw;
+    height: 30vh;
+    /* position: absolute; */
+    /* z-index: -1; */
+    left: 0;
+    margin-right: 1rem;
+    margin-top: -2rem;
+    
+}
+
+.aero img {
+    height: 100%;
+    width: 100%;
+}
+
+.aero1 {
+     width: 30vw;
+    height: 30vh;
+    /* position: absolute; */
+    left: 1;
+    margin-left: -12px;
+    margin-top: 6rem;
+    rotate: 180deg;
+   
+}
+
+.aero1 img {
+    height: 100%;
+    width: 100%;
+    
+}
