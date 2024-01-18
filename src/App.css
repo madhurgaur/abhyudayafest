@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,13 +7,14 @@
 
 }
 
-body{
+body {
     background-color: #ffffff;
     scroll-behavior: smooth;
     width: 100vw;
+    overflow-x: hidden;
 }
 
-.fest__pageA{
+.fest__pageA {
     background-image: url('./Assets/djBack.JPG');
     background-size: cover;
     /* background-size: 100% 100%; */

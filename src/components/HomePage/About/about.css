@@ -1,6 +1,6 @@
-.fest__about{
-    
-    height: 100vh;
+.fest__about {
+
+    /* height: 100vh; */
     width: 100vw;
     background-color: rgb(255, 254, 255);
     /* overflow-x: hidden; */
@@ -8,29 +8,36 @@
 }
 
 .fest__about-container {
-   display: flex;
-  flex-direction: column;  
-  position: relative;
+    /* height: 100%; */
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
-.a1{
-   /* width: 15rem; */
-   /* height:12.5rem;  */
-  /* display: inline; */
-  display: flex;
+
+.a1 {
+    /* width: 15rem; */
+    /* height:12.5rem;  */
+    /* display: inline; */
+    width: 15%;
+    display: flex;
 }
-.a1 img{
+
+.a1 img {
     /* height: 130%; */
-    /* width:90%; */
+    width: 100%;
     scale: -1;
-   
+
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin: auto;
+    width: 60%;
+    margin: 7vw auto;
     /* max-width: 60rem;
     min-height: 30rem; */
     /* margin: 2rem 3rem; */
@@ -38,34 +45,34 @@
     /* margin-top: -7rem; */
     z-index: 2;
 
-    
+
 }
 
-.content h1{
+.content h1 {
     font-family: "Salsa", cursive;
     color: #000000;
     font-weight: 800;
     font-size: 62px;
     line-height: 155px;
     letter-spacing: -0.04em;
-    
+
 }
-.content text{
-    font-family: "Salsa", cursive;
+
+.content p {
     font-weight: bolder;
     font-style: normal;
     font-size: 20px;
     line-height: 25px;
     text-transform: capitalize;
     margin: 0 1rem;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     color: #000000;
-    /* border: 2px dashed grey; */
-    /* padding: 4rem; */
 }
 
 
-text ::before{
+p ::before {
     content: "";
     z-index: -2;
     position: absolute;
@@ -79,7 +86,7 @@ text ::before{
     background: red;
 }
 
-text ::after {
+p ::after {
     z-index: -1;
     content: "";
     position: absolute;
@@ -92,71 +99,69 @@ text ::after {
 }
 
 
-.a2{
-   display: flex;
-   justify-content: flex-end;
-   align-items: flex-start;
-   /* position: absolute; */
-   /* top: 16rem; */
-   /* right: 0; */
-   
- }
- .a2 img{
-     height: 100%;
-     /* width:auto; */
-     /* scale: 2; */
-     /* height: 20rem; */
-    
- }
+.a2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
 
- .guitar{
+.a2 img {
+    width: 15%;
+    /* width:auto; */
+    /* scale: 2; */
+    /* height: 20rem; */
+}
+
+.guitar {
     position: absolute;
-    top:160vh;
-    margin-left: -7rem;
- }
+    /* top: 160vh; */
+    /* margin-left: -7rem; */
+}
 
- .guitar img{
+.guitar img {
     width: auto;
     height: 100%;
- }
+}
 
- .music{
+.music {
     position: absolute;
-    right: 0;
-    top: 95vh;
+    right: 2rem;
+    top: 2rem;
+    width: 12%;
+}
 
- }
-
- .music img{
+.music img {
+    width: 100%;
     /* padding: 2rem; */
-    scale: 0.6;
-    margin-right: -5rem;
- }
-
- .plane1{
-    height: 20rem;
-    width: 30rem;
-    position: absolute; 
-    top: 135vh;
-    left: 15rem;
+    /* scale: 0.6; */
+    /* margin-right: -5rem; */
 }
 
-.plane1 img{
-    width: auto;
-    height: 15rem;
+.plane1 {
+    position: absolute;
+    /* height: 200px; */
+    width: 10%;
+    top: 10rem;
+
+    left: 20%;
 }
 
-.plane2{
-    height: 20rem;
-    width: 30rem;
-    position: absolute; 
-    top: 155vh;
-    right: 9rem;
-    rotate: 180deg ;
-    
+.plane1 img {
+    width: 100%;
+    /* height: 15rem; */
 }
 
-.plane2 img{
-    width: auto;
-    height: 15rem;
+.plane2 {
+    /* height: 20rem; */
+    /* width: 30rem; */
+    /* position: absolute;  */
+    /* top: 155vh; */
+    /* right: 9rem; */
+    rotate: 180deg;
+
+}
+
+.plane2 img {
+    /* width: auto; */
+    /* height: 15rem; */
 }
