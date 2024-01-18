@@ -3,12 +3,14 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    /* overflow-x: hidden; */
 
 }
 
 body{
     background-color: #ffffff;
     scroll-behavior: smooth;
+    width: 100vw;
 }
 
 .fest__pageA{

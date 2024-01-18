@@ -29,7 +29,7 @@ const Navbar = () => {
        <div className='fest__navbar-links'>
          <div className='fest__navbar-links_logo'>
            <img src={logo} alt='logo'/>
-           <p>ABHYUDAYA</p>
+           
          </div>
          <div className='fest__navbar-links_container'>
           <Menu/>
