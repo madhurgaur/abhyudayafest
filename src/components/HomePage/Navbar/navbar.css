@@ -47,6 +47,9 @@
     cursor: pointer;
     color: #ffffff;
  }
+ a{
+   text-decoration: none;
+ }
  
  .fest__navbar-links_container p,
  .fest__navbar-menu_container p {
@@ -59,6 +62,8 @@
     margin: 0 1rem;
     cursor: pointer;
     color: #ffffff;
+    text-decoration: none !important;
+    color: inherit !important; 
  }
 
  .nav-link {
@@ -68,6 +73,8 @@
     /* padding: 10px; */
     /* margin: 0; */
     display: inline-block;
+   
+   
 }
  .nav-link:after {
     content: '';
@@ -89,9 +96,11 @@
    /* margin-left: 1rem; */
    display: none;
    position: relative;
+   right: -4rem;
  }
  .fest__navbar-menu svg {
    cursor: pointer;
+   margin-right: 2rem;
  }
  .fest__navbar-menu_container {
    display: flex;

@@ -8,7 +8,9 @@
 }
 
 body {
-    background-color: #ffffff;
+    /* background-color: #EAE6E5; */
+    
+     background-color:  #EAE6E5;
     scroll-behavior: smooth;
     width: 100vw;
     overflow-x: hidden;
@@ -21,4 +23,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
 }

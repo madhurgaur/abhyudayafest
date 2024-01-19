@@ -1,24 +1,33 @@
 import React, { useEffect } from 'react'
 import './about.css'
-import arrowR from '../../../Assets/arrowRi.png'
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+// import arrowR from '../../../Assets/arrowRi.png'
 import arrowL from '../../../Assets/arrowRupdated.png'
-import guitar from '../../../Assets/guitarbg.png'
+import guitar from '../../../Assets/guitar-emoji-clipart-md.png'
 import music from '../../../Assets/musicEle.png'
 import plane from '../../../Assets/paper-plane-clipart-xl.png';
 // import { useEffect } from 'react'
 import gsap from 'gsap'
 const About = () => {
   useEffect(function () {
+    gsap.registerPlugin(ScrollTrigger);
     const tl = gsap.timeline();
     tl.from('.plane1', {
+      x: -35,
       y: 50,
-      x: -45,
-      delay: 1,
-      opacity: 1,
+      duration: 0.5,
+      rotate: -40,
+      
+      
+    });
 
-
-    })
-  })
+    tl.from('.plane2', {
+      x: 20,
+      y: -25,
+      rotate: -20,
+      duration: 0.5,  
+    });
+  }, []);
   return (
 
     <>
@@ -34,18 +43,18 @@ const About = () => {
           <div className='a2'>
             <img src={arrowL} alt='ar2' />
           </div>
-          {/* <div className='guitar'>
+           <div className='guitar'>
             <img src={guitar} alt='guitar' />
-          </div> */}
+  </div>
           <div className='music'>
             <img src={music} alt='music' />
           </div>
           <div className='plane1'>
-            <img src={plane} />
+            <img src={plane} alt='plane1'/>
           </div>
-          {/* <div className='plane2'>
-            <img src={plane} />
-          </div> */}
+          <div className='plane2'>
+            <img src={plane} alt='plane2'/>
+          </div> 
         </div>
 
 

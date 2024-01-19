@@ -1,0 +1,119 @@
+.registration{
+    background: linear-gradient(to bottom,#398789 2%,#70cc96 100%);
+    width: 100%;
+    height: 110vh;
+     font-family: 'Nunito Sans', sans-serif;
+
+}
+.registrationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.regHeading{
+    margin-bottom: 2rem;
+    background-color: #072d2dd4;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.regHeading h2{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25rem;
+   
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  .form-input:focus {
+    border-color: #054343d4;
+  }
+
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  .form-select:focus {
+    border-color: #054343d4;
+  }
+
+  .form-button {
+    margin: auto;
+    background-color: #072d2dd4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .btn-div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .form-button:hover {
+    background-color: #054343d4;
+    
+  }
+
+  @media screen  and (max-width:1240px){
+    .regHeading{
+        margin-top: 2rem;
+        /* background-color: #ccc; */
+    }
+  }
+  @media screen and (max-width:720px) {
+    .registration{
+        height: 120vh;
+    }
+  }
+
+  @media screen and (max-width:460px)  {
+    .registrationContainer{
+        padding: 3rem;
+    }
+    .form-container{
+        width: 20rem;
+    }
+    .regHeading{
+        margin-top: 3rem;
+        
+    }
+
+  }
+  

@@ -8,11 +8,11 @@ import logo from'../../../Assets/abhyudatalogo.png';
 const Menu=()=>{
   return (
     <div>
-    <p class="nav-link">Home</p>
-    <p class="nav-link">Events</p>
-    <p class="nav-link" >Registration</p>
-    <p class="nav-link" >Team</p>
-    <p class="nav-link" >Contact Us</p>
+    <p className="nav-link"><a href='/'>Home</a></p>
+    <p className="nav-link"><a href='/events'>Events</a></p>
+    <p className="nav-link" ><a href='/registration'>Registration</a></p>
+    <p className="nav-link" ><a href='/team'>Team</a></p>
+    <p className="nav-link" ><a href='/contact'>Contact US</a></p>
     </div>
 
   );
