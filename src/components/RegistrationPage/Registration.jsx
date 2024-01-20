@@ -1,6 +1,7 @@
 import React from 'react'
 import './registration.css';
 import Navbar from '../HomePage/Navbar/Navbar';
+import registering from '../../Assets/registration.png'
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet"></link>
 
 const Registration = () => {
@@ -8,6 +9,10 @@ const Registration = () => {
     <div className='registration'>
     <div className='navbar'>
         <Navbar/>
+      </div>
+      <div className='regContainer'>
+      <div className='regPng'>
+        <img src={registering} />
       </div>
       <div className='registrationContainer'>
       <div className='regHeading'>
@@ -55,6 +60,7 @@ const Registration = () => {
     <div className='btn-div'>
     <button className="form-button">Submit</button>
     </div>
+  </div>
   </div>
   </div>
     </div>

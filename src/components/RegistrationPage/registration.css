@@ -1,9 +1,29 @@
 .registration{
     background: linear-gradient(to bottom,#398789 2%,#70cc96 100%);
     width: 100%;
-    height: 110vh;
+    height: 120vh;
      font-family: 'Nunito Sans', sans-serif;
 
+}
+.regPng{
+  width: 30vw;
+  /* background-color: #fff; */
+  height: 60vh;
+  /* margin: auto; */
+  margin-top: 10rem;
+  
+}
+
+.regContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.regPng img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .registrationContainer{
     display: flex;
@@ -13,7 +33,7 @@
     height: 95vh;
 }
 .regHeading{
-    margin-bottom: 2rem;
+    margin: 1rem 0;
     background-color: #072d2dd4;
     color: #ffffff;
     padding: 1rem;
@@ -84,6 +104,7 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    margin-bottom:25px;
   }
 
   .form-button:hover {
@@ -101,19 +122,61 @@
     .registration{
         height: 120vh;
     }
+    .form-container{
+      width: 20rem;
+    }
+  }
+  @media screen and (max-width:590px) {
+    .regContainer{
+      flex-direction: column;
+    }
+    .regPng{
+      width: 60vw;
+      height: 50vh;
+      margin: auto;
+    }
+    .registration{
+      height: max-content ;
+      
+  }
   }
 
   @media screen and (max-width:460px)  {
     .registrationContainer{
         padding: 3rem;
     }
+    .regPng{
+      width: 24rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
     .form-container{
         width: 20rem;
     }
     .regHeading{
         margin-top: 3rem;
-        
     }
-
+    .regHeading h2{
+      font-size: 18px;
+    }
+    .regContainer{
+      margin-right: 2rem;
+    }
+    
   }
   
+  @media screen and (max-width:460px) {
+    .form-container{
+      width: 18rem;
+      margin-left: -10px;
+  }
+}
+  
+
+  @media screen and (max-width:380px) {
+    .form-container{
+      width: 16rem;
+      margin-left: -25px;
+  }
+ 
+}

@@ -13,9 +13,15 @@ const Header = () => {
     //   scale:0.5,
     //   delay:1
     // })
+    tl.from('.fest__header-image',{
+      y:-100,
+      duration:1.2,
+      opacity:0.1
+
+    })
     tl.from ('.fest__header-content_heading ', {
       y:50,
-      delay:0.5,
+      delay:0,
       opacity:0
     })
 
