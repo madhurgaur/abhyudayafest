@@ -15,9 +15,13 @@ const About = () => {
     tl.from('.plane1', {
       x: -35,
       y: 50,
-      duration: 0.5,
+      duration: 1,
       rotate: -40,
-      
+      scrollTrigger:{
+        trigger:'.plane1',
+        scroller: '.App',
+       
+      }
       
     });
 

@@ -1,6 +1,8 @@
 import React from 'react';
+import { Suspense } from 'react';
 import './home.css'
-import { Navbar,Header,About, Footer, Highlights} from '../index'
+import { Navbar,Header,About, Footer} from '../index'
+const Highlight = React.lazy(()=>import('./Highlights/Highlight'))
 
 const Home = () => {
   return (
@@ -11,7 +13,9 @@ const Home = () => {
       <Header/>
     </div>
       <About/>
-      <Highlights/>
+      <Suspense fallback={<p>This is loading</p>}>
+        <Highlight />
+      </Suspense>
      <Footer/>
    </div>
     </div>

@@ -1,8 +1,10 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { RiMenu3Line } from "react-icons/ri";
 import { IoCloseOutline } from "react-icons/io5";
 import './navbar.css';
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import logo from'../../../Assets/abhyudatalogo.png';
 
 const Menu=()=>{
@@ -19,6 +21,26 @@ const Menu=()=>{
 }
 
 const Navbar = () => {
+ 
+  useEffect(function () {
+    gsap.registerPlugin(ScrollTrigger);
+    const tl = gsap.timeline();
+    tl.from('#logo , .nav-link', {
+      y: -100,
+      duration: 0.5,
+      stagger:0.2,
+      delay:0.5
+      
+      
+    });
+
+    tl.from('.plane2', {
+      x: 20,
+      y: -25,
+      rotate: -20,
+      duration: 0.5,  
+    });
+  }, []);
 
   const [toggleMenu, setToggleMenu] = useState(false); 
 
@@ -28,7 +50,7 @@ const Navbar = () => {
     <div className='fest__navbar'>
        <div className='fest__navbar-links'>
          <div className='fest__navbar-links_logo'>
-           <img src={logo} alt='logo'/>
+           <img src={logo} alt='logo' id='logo'/>
            
          </div>
          <div className='fest__navbar-links_container'>
@@ -54,4 +76,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar
+export default Navbar;

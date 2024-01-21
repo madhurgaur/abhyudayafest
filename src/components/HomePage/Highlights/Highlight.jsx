@@ -32,7 +32,7 @@ const Highlight = () => {
             <img src={s} alt='f' loading="lazy"/>
         </div>
         <div class="img">
-            <img src={drama} alt='g' loading="lazy"/>
+            <img src={drama} alt='g' />
         </div>
        
         
