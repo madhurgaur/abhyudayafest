@@ -13,8 +13,8 @@ const Footer = () => {
         <div className='fest__footer-groupA_content'>
       <h3>Reach US</h3>  
       <div>
-        <h5>Harsh Mishra</h5>
-        <p>9682936376</p>
+        <h5>Madhur Gaur</h5>
+        <p>9555749803</p>
         </div>
         <div className='icons'>
          <InstagramIcon/>
@@ -36,7 +36,7 @@ const Footer = () => {
       <div className='fest__footer-groupC'>
          <h3>Contact Us</h3>
          <div className='name1'>
-         <h5>Madhur Gaur</h5>
+         <h5>Nitin Yadav</h5>
          <p>9555749803</p>
          </div>
          <div className='name2'>

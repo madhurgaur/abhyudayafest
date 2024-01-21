@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css'
-import { Navbar,Header,About, Footer, } from '../index'
+import { Navbar,Header,About, Footer, Highlights} from '../index'
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
       <Header/>
     </div>
       <About/>
+      <Highlights/>
      <Footer/>
    </div>
     </div>

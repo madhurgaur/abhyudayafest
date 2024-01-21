@@ -3,6 +3,7 @@
     /* height: 100vh; */
     width: 100vw;
     background-color: #EAE6E5;
+    background-color: #fff;
     /* overflow-x: hidden; */
     position: relative;
 }
@@ -40,7 +41,7 @@
     align-items: center;
     width: 60%;
     margin: 4vw auto;
-     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);;
+     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
     /* max-width: 60rem;
     min-height: 30rem; */
     /* margin: 2rem 3rem; */
