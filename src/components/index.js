@@ -7,4 +7,5 @@ export {default as Team} from './TeamPage/Team';
 export {default as Registration} from './RegistrationPage/Registration';
 export {default as Contact} from './ContactPage/Contact';
 export {default as Events} from './EventsPage/Event';
- export {default as Highlights} from './HomePage/Highlights/Highlight'
+export {default as Highlights} from './HomePage/Highlights/Highlight'
+export {default as Aftermovie} from './HomePage/Aftermovie/Aftermovie'
