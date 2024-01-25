@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --background-color: linear-gradient(90deg, rgba(111,37,189,1) 0%, rgba(199,56,136,1) 35%, rgba(247,146,27,1) 83%);
+}
