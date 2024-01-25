@@ -151,4 +151,7 @@
      .fest__navbar-menu_container{
          top: 20px;
      }
+     .nav-link:nth-child(n){
+      font-size: 25px;
+     }
   }
