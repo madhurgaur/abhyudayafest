@@ -1,0 +1,72 @@
+.card{
+    margin: 2rem 4rem;
+    width: 24rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background: url('../../Assets/frame-50d43a4f.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* background-color: #ba465a;  */
+    /* border-radius: 50%;    */
+    /* box-shadow: -20px 0 1px #ee6983; */
+}
+
+.image{
+    margin-top: 3rem;
+    width: 13rem;
+    height: 13rem;
+   
+   
+}
+.image img{  
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius:50%;
+    height: 100%;
+    width: 100%;
+    /* box-shadow: 15px 0px 20px rgba(56, 10, 30, 0.888); */
+    object-fit: cover;
+}
+.facHeading{
+    background: #ffffff37;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.facHeading h2{
+    color: #231f20;
+    font-family: "Salsa", cursive;
+    background: #e3d4d494;
+    padding: 0.3rem;
+    border-radius: 4px;
+}
+
+.facHeading h4{
+    color: #0b0505;
+    font-family: "Salsa", cursive;
+    /* padding: 0.5rem; */
+}
+
+@media screen and (max-width:525px) {
+    .card{
+        width: 15rem;
+        height: 15rem;
+    }
+    .image{
+        margin-top: 2rem;
+        width: 7rem;
+        height: 7rem;
+       
+       
+    }
+    .facHeading h2{
+        font-size: 17px;
+    }
+    .facHeading h4{
+        font-size: 13px;
+    }
+}

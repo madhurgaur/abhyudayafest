@@ -1,0 +1,127 @@
+:root{
+    --clr : #fff5e3
+}
+
+.teamPage{
+    background: var(--clr);
+    width: 100%;
+    height: 100vh;
+    background: url('../../Assets/team.JPG');
+    background-size: cover;
+    /* background-size: 100% 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    
+}
+.teamContainer{
+    background:  var(--clr);
+    height: max-content;
+}
+.teamHeading{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.teamHeading h1{
+    padding: 0.5rem;
+    /* background-color: #13161b3f;; */
+    color: #fff5e3;
+    font-size: 60px;
+    -webkit-text-stroke: 2px #000000;
+    /* text-stroke: 2px #000000;  */
+    font-family: "Salsa", cursive;
+    border-radius: 8px;
+}
+.coreHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 3rem;
+}
+.coreHeading h1{
+    padding: 0.6rem;
+    background-color: #13161b3f;;
+    color: #ba465a;
+    font-family: "Salsa", cursive;
+    border-radius: 8px;
+}
+
+.teamMates{
+   padding-top: 4rem;
+}
+
+.faculty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    flex-direction: column; 
+    margin-top: 1rem;    
+}
+
+
+.csc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    border-top: 2px solid maroon;
+}
+
+.jcs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
+.heads{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
+
+.jointheads{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
+
+
+@media screen  and (max-width:1050px){
+    .teamPage{
+        height: 75vh;
+
+    }
+}
+
+@media screen  and (max-width:660px){
+    .teamPage{
+        height: 65vh;
+
+    }
+}
+
+@media screen  and (max-width:550px){
+    .teamPage{
+        height: 55vh;
+
+    }
+}
+
+
+/* linear-gradient(to bottom,#ee2d41 2%,#bc034d 100%);*/
