@@ -7,6 +7,8 @@ const Event = () => {
     <div>
       <div className='navbar'>
         <Navbar/>
+      </div><div>
+        it is event
       </div>
     </div>
   )
