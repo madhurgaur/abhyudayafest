@@ -1,4 +1,5 @@
-
+import React from 'react';
+import danceImage from './dance.jpg';
 var MyClass = React.createClass({
   render: function() {
     return (
