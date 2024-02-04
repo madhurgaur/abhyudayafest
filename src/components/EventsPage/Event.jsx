@@ -1,5 +1,10 @@
 import React from 'react';
-import danceImage from './dance.jpg';
+import dance image from '../../../Assets/dance.jpg'
+import music image from '../../../Assets/music.png.jpg'
+import fashion image from '../../../Assets/fashion.jpg'
+import literary image from '../../../Assets/literary.jpg'
+import finearts image from '../../../Assets/finearts.jpg'
+import reel image from '../../../Assets/view-3d-film-reel.jpg'
 var MyClass = React.createClass({
   render: function() {
     return (
