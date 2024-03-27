@@ -1,12 +1,12 @@
 import React from 'react'
 import './highlight.css'
 // import a from '../../../Assets/shlokaFront.jpg'
-import b from '../../../Assets/djControl.JPG'
-import c from '../../../Assets/shlokafix.JPG'
-import dance from '../../../Assets/dancepic.JPG'
-import f from '../../../Assets/facepainting.JPG'
-import s from '../../../Assets/singer.JPG'
-import drama from '../../../Assets/drama.JPG'
+import b from '../../../Assets/guitr.jpg'
+import c from '../../../Assets/mics.jpg'
+import dance from '../../../Assets/choras.jpg'
+import f from '../../../Assets/raga.jpg'
+import s from '../../../Assets/key.jpg'
+import drama from '../../../Assets/fpaint.jpg'
 
 const Highlight = () => {
   return (
